@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Shaders</title>
+        <link rel="stylesheet" href="./webgl.css" type="text/css">
+        <script src="mouse-speed.js"></script>
+        <!-- <script src="https://greggman.github.io/webgl-lint/webgl-lint.js"></script> -->
+        <script src="webgl.js"></script>
+        
+    </head>
+    <body>
+        <div id="canvas-container">
+            <canvas id="gl-canvas"></canvas>
+        </div>
+        <script>
+            const canvas = document.querySelector('#gl-canvas');
+            const shaderProgram = new ShaderProgram(canvas);
+        </script>
+
+    </body>
+</html>
