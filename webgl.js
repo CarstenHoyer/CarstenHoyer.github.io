@@ -605,6 +605,7 @@ class ShaderProgram {
       gl.uniform1f(programInfo.uniformLocations.timeUniformLocation, this.time);
 
       // set mouse loc
+      
       gl.uniform2f(programInfo.uniformLocations.mouseUniformLocation, this.mouse.x, this.mouse.y);
 
       // gl.uniformMatrix4fv(
